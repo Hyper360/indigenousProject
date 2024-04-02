@@ -1,0 +1,42 @@
+body{
+    background-color: orange;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#title{
+    text-align: center;
+    font-size: 8em;
+}
+
+.infobox{
+    background-color: rgb(200, 131, 0);
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.infobox a{
+    text-decoration-line: none;
+}
+
+.infobox img{
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    transition: width 1s, height 1s;
+}
+
+.infobox img:hover{
+    width: 25%;
+    height: 25%;
+}
+
+.socials img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.socials img:hover{
+    width: 250px;
+    height: 250px;
+}

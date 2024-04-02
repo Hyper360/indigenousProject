@@ -1,0 +1,64 @@
+body{
+    background-color: orange;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#title{
+    text-align: center;
+    font-size: 8em;
+}
+
+.links{
+    background-color: rgb(220, 145, 0);
+    border-radius: 5px;
+    text-align: left;
+    font-size: 5em;
+    padding: 10px;
+}
+
+.links a{
+    text-decoration-line: none;
+}
+
+.links li{
+    transition: background-color 0.25s, color 0.25s;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.links img{
+    float: right;
+    width: 35%;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.links li:hover{
+    background-color: hsl(35, 100%, 60%);
+}
+
+.links li::marker{
+    content: none;
+}
+
+#keymo{
+    text-align: center;
+    font-size: 5em;
+}
+
+.entry{
+    background-color: rgb(220, 130, 0);
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    transition: background-color 0.25s, font-size 0.25s
+}
+
+.entry:hover{
+    background-color: rgb(255, 170, 50);
+    font-size: 2.5em;
+}
+
+.entry h2{
+    text-align: center;
+}
